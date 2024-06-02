@@ -1,0 +1,105 @@
+
+.Nav-o {
+    /* text-align: center; Center the navigation bar */
+    /* margin-top: 2rem;  */
+    /* background-color: rgb(11, 76, 76); */
+    background-color: #09203a;
+    
+}
+.h1{
+    font-size: 25px;
+}
+
+.NavList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15rem;
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+}
+
+.NavList li {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.NavList li a {
+    text-decoration: none;
+    color: white;
+    position: relative; /* Necessary for the after pseudo-element positioning */
+}
+
+.NavList li a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background: white;
+    transition: width 0.3s ease;
+    position: absolute; /* Position the after pseudo-element absolutely within the parent */
+    bottom: -5px; /* Position it slightly below the text */
+    left: 0;
+}
+.NavList li a:hover{
+    color: greenyellow;
+    transition: width 0.5s ease;
+}
+
+.NavList li a:hover::after {
+    width: 100%;
+    background: rgb(217, 239, 77);
+
+}
+/* Skills section styling */
+.skills-section1 {
+    padding: 20px;
+    padding-left: 60px;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-left: 15rem;
+    margin-right: 15rem;    
+}
+.skills-section2 {
+    padding: 20px;
+    padding-left: 60px;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+.skills-section3 {
+    padding: 20px;
+    padding-left: 60px;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+.skills-title{
+    color: black;
+    font-size: 25px;
+
+}
+.skills-row1{
+    display: flex;
+    align-items: center;
+}
+.skills-row2{
+    display: flex;
+    align-items: center;
+}
+.skill-iconj{
+    margin-right: 5px;
+    margin-left: -5px;
+}
+.skill-iconh{
+    margin-left: 2px;
+}
+.skill-icond{
+    margin-right: 35px;
+}
+.skill-iconn{
+    margin-top: 30px;
+}
