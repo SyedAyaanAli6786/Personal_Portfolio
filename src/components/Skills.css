@@ -80,15 +80,26 @@
 .skills-title{
     color: black;
     font-size: 25px;
-
+    display: flex;
+    justify-content: center;
 }
+
+
 .skills-row1{
     display: flex;
     align-items: center;
 }
 .skills-row2{
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
+    width: 770px;
+}
+.skills-row3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 770px;
 }
 .skill-iconj{
     margin-right: 5px;

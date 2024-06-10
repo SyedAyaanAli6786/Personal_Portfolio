@@ -10,7 +10,9 @@ function Contact(){
     return(
         <div>
             <Navbar />
-            <h2 id='h22'> Contact-------</h2>
+            <br/>
+            <br/>
+            {/*<h2 id='h22'> Contact-------</h2>*/}
             <div className="Contacts">
                 <ul className="Contact1">
                     <div className='locate'>

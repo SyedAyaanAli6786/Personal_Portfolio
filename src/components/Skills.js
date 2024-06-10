@@ -14,12 +14,16 @@ import AmazonGitServices from '../assets/amazon-web-services.svg';
 import Jupyter from '../assets/jupyter.svg';
 import './Skills.css';
 import Navbar from './Navbar';
+// import Python from 'ra-icons'
 
 function Skills() {
     return (
         <div>
             <Navbar />
-            <h4 id="h22">SKILLS ----------</h4>
+            <br/>
+            <br/>
+            <br/>
+            {/*<h4 id="h22">SKILLS ----------</h4>*/}
             <div className="skills-section1">
                 <h2 className="skills-title">Languages and Databases</h2>
                 <div className="skills-row1">

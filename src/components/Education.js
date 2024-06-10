@@ -7,7 +7,7 @@ function Education(){
         <div>
             <Navbar />
 
-    <h2 id='h22'>Education</h2>
+    {/*<h2 id='h22'>Education</h2>*/}
     <div className="education-container">
         <div className="Section">
             <div className="image-container">
